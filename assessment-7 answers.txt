@@ -1,0 +1,33 @@
+Asessment 7 step 1
+
+extraLarge Array
+inster{ 734.9773ms
+append{ 2.5738ms
+
+largeArray
+insert{ 7.2792
+append{ 428.8 us
+
+medium Array
+insert 155.7 us
+append{ 112.5 us
+
+smallArray
+insert{ 47.9us
+append{ 96.1us
+
+tiny Array
+insert{55.9 us
+append{77.7us
+
+
+
+
+
+
+i think this come down to BIG O where different functions contain different amount of resources to complete each function depending on the size of different arrays and such. 
+
+for example the inster function runs on a exponential scale. meaning the bigger the array the functions exponentially increase. where as the append function runs on a linear scale. where the functions linearly increase. 
+
+
+the second functions scales better in my oppinion because the timings are consistently lower than the other. 
